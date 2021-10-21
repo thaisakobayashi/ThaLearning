@@ -10,6 +10,8 @@ print('O valor escolhido em metros é {:.2f}m'.format(metros))
 print('Convertido em centímetros: {:.2f}cm'.format(centimetros)) 
 print('E em milímetros: {:.2f}mm.'.format(milimetros))
 
+print('A média de {}m corresponde a {:.0f}mm e {:.0f}mm'.format(metros, centimetros, milimetros))
+
 
 
 

@@ -26,3 +26,4 @@ print('''A tabua do número {} é:
 \n{:2} x 08 = {:2}
 \n{:2} x 09 = {:2}
 \n{:2} x 10 = {:2}.'''.format(n1, n1, t0, n1, t1, n1, t2, n1, t3, n1, t4, n1, t5, n1, t6, n1, t7, n1, t8, n1, t9, n1, t10))
+
