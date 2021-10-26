@@ -98,6 +98,8 @@ print(frase.lower())
 # O CAPITALIZE vai pegar uma string inteira, e deixar só a primeira letra maiúscula
 # o resto ele vai mudar tudo para minúscula
 frase.capitalize()
+# tem que salvar na variável
+frase = frase.capitalize()  #ASSIM
 print(frase.capitalize())
 
 # O TITLE vai colocar todas as palavras com letra inicial maiúscula
