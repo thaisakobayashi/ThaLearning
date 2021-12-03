@@ -7,9 +7,19 @@ mostrando uma mensagem no final, de acordo com a média atingida:
 n1 = float(input('Primeira nota: '))
 n2 = float(input('Segunda nota: '))
 media = (n1 + n2) / 2
+print('Tirando {:.1f} e {:.1f}, a média do aluno é {:.1f}'.format(n1, n2, media))
 if media < 5.0:
-   print('A sua média é {:.2f}. Você está REPROVADO!'.format(media))
+   print('A sua média é {:.1f}. Você está REPROVADO!'.format(media))
 elif 5.0 <= media < 7.0:
-   print('A sua média é {:.2f}. Você está de RECUPERAÇÃO!'.format(media))
+   print('A sua média é {:.1f}. Você está de RECUPERAÇÃO!'.format(media))
 elif media >= 7.0:
-   print('Sua média é {:.2f}. Você foi APROVADO! Parabéns!'.format(media))
+   print('Sua média é {:.1f}. Você foi APROVADO! Parabéns!'.format(media))
+
+
+#Guanabara
+if 7 > media >= 5:
+   print('O aluno está em RECUPERAÇÃO.')
+elif media < 5:
+   print('O aluno está REPROVADO.')
+elif media >= 7:
+   print('O aluno está APROVADO.')
