@@ -144,10 +144,11 @@ print(dividido[2][3]) # aqui ele vai pegar o bloco 2 que é Vídeo e vai mostrar
 
 # JUNÇÃO
 frasex = frase.split()
+#quebrando frase em uma lista, usando espaços como divisão
 # JOIN
 # '-'.join(frase)
 print('-'.join(frasex))
-# Aqui ele vai separar a lista de palavras com traços - 
+# Aqui ele vai juntar a lista de palavras em uma frase com traços - entre elas 
 
 #___________________________________________________________________________
 # Quando eu quero escrever uma frase bem grande eu abro print(""",jdjsfhd""")
