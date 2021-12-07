@@ -2,7 +2,7 @@
 de fogos de artifício, indo de 10 até 0, com uma pausa de 1 segundo entre eles."""
 
 from time import sleep
-for c in range(10, -1, -1):
-   print(c)
+for cont in range(10, -1, -1):
+   print(cont)
    sleep(1)
-print('FOGOS!!!')
+print('BUM! BUM! POOW! FOGOS!!!')
